@@ -6,21 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Ninja</title>
+
+
+<!-- ---------LINK CSS--------- -->
+
+<link rel="stylesheet" href="css\main.css">
+
+
+
 </head>
 
 <body>
 
-    <header class="logo">
-        <div>
+    <header class="header"> 
+        <div class="logo">
             Food Ninja
 
         </div>
 
-        <nav class="headnav">
-            <ul>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+        <nav class="main-nav">
+            <ul class="main-nav-list" >
+                <li><a class="main-nav-link" href="#">Blog</a></li>
+                <li><a class="main-nav-link" href="#">About</a></li>
+                <li><a class="main-nav-link" href="#">Contact</a></li>
             </ul>
         </nav>
 
@@ -32,9 +40,9 @@
             <p>A blog about food, experiences and recipes.</p>
         </header>
         <div class="search-container">
-            <form action="/action_page.php">
+            <form action="">
                 <input type="text" placeholder="Search.." name="search">
-                <button type="submit"><i class="fa fa-search"></i></button>
+                <button type="submit"><i  class="fa fa-search"></i> Search</button>
             </form>
         </div>
 
@@ -42,7 +50,9 @@
 
     <main>
         <article>
-            <div><img src="https://images.unsplash.com/photo-1517093157656-b9eccef91cb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" alt=""></div>
+            <div>
+                <!-- <img src="https://images.unsplash.com/photo-1517093157656-b9eccef91cb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" alt=""> -->
+            </div>
             <ul>
                 <li>
                     <p>Travel</p>
@@ -61,7 +71,7 @@
                     debitis aperiam aut quis molestiae.</p>
             </div>
 
-            <div><img src="https://images.unsplash.com/photo-1511226616573-0937ad7da1d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z2lybCUyMGVhdGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="">
+            <div><img src="https://randomuser.me/api/portraits/women/44.jpg" alt="">
                 <h5>Abishua</h5>
             </div>
         </article>
@@ -72,7 +82,9 @@
         <article>
 
 
-            <div><img src="https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt=""></div>
+            <div>
+                <!-- <img src="https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt=""> -->
+            </div>
             <ul>
                 <li>
                     <p>Travel</p>
@@ -91,7 +103,7 @@
                     debitis aperiam aut quis molestiae.</p>
             </div>
 
-            <div><img src="https://images.unsplash.com/photo-1511226616573-0937ad7da1d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z2lybCUyMGVhdGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="">
+            <div><img src="https://randomuser.me/api/portraits/women/44.jpg" alt="">
                 <h5>Abishua</h5>
             </div>
 
@@ -150,17 +162,19 @@
 
 
         <footer>
-            <div>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Contact</a></li>
+            <div class="foo-nav">
+                <ul class="foo-nav-list">
+                    <li><a class="foo-nav-link" href="#">About</a></li>
+                    <li><a class="foo-nav-link"  href="#">Privacy Policy</a></li>
+                    <li><a class="foo-nav-link" href="#">Contact</a></li>
                 </ul>
             </div>
 
-            <div>
-                <p>Copyright &copy;2021 Food Ninja Blog.All Rights Reserved.</p>
+            <div class="copy">
+                <p>Copyright &copy;2021 Food Ninja. All Rights Reserved.</p>
             </div>
+
+            <p class="coder-name">Code with ❤️ By  <a class="coder-name-link" href="https://twitter.com/abishuablessmic"> Abishua</a></p>
         </footer>
 
 
