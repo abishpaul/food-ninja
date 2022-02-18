@@ -1,0 +1,122 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    font-family:sans-serif;
+    line-height:1;
+    font-weight: 400;
+    color: #000 ;
+    background-color:#FEF8EA;
+
+}
+
+
+/* ************************** */
+/* * GENERAL COMPONENTS * */
+/* ************************** */
+
+
+
+/* ************************** */
+/* * HEADER * */
+/* ************************** */
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height: 5rem;
+    padding:0 1.5rem;
+
+}
+
+.logo{
+    margin-right: auto;
+    /* height: 2.4em; */
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+
+/* ************************** */
+/* * NAVIGATION * */
+/* ************************** */
+.main-nav-list{
+   list-style:none;
+   display:flex;
+   gap:1.2rem;
+   
+}
+
+.main-nav-link:link,
+.main-nav-link:visited{
+    text-decoration:none;
+    color: #000
+}
+
+
+
+
+
+/* ************************** */
+/* * FOOTER * */
+/* ************************** */
+
+
+footer{
+    background-color:#D2C6FF;
+    padding:1.2rem;
+    max-width: 100rem;
+    font-size: 0.80rem;
+    align-items:center;
+}
+
+
+/* .foo-nav{
+    display:flex;
+    align-items:center;
+} */
+
+
+.foo-nav-list{
+    list-style:none;
+    list-style:none;
+    display:flex;
+    gap:1.2rem;
+    height: 1.5rem;
+    justify-content:center;
+    
+}
+
+.foo-nav-link:link,
+.foo-nav-link:visited{
+    text-decoration:none;
+    color: #000;
+    
+    }
+
+
+.copy{
+    /* align-items: center; */
+    justify-content:center;
+    display:flex;
+    height: 1.5rem;
+}
+
+
+.coder-name{
+    justify-content:center;
+    display:flex;
+    gap:.25rem;
+}
+
+.coder-name-link:link,
+.coder-name-link:visited{
+    text-decoration:none;
+    color: #000;
+}
+
