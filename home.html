@@ -11,6 +11,7 @@
 <!-- ---------LINK CSS--------- -->
 
 <link rel="stylesheet" href="css\main.css">
+<link rel="stylesheet" href="css\home.css">
 
 
 
@@ -26,7 +27,7 @@
 
         <nav class="main-nav">
             <ul class="main-nav-list" >
-                <li><a class="main-nav-link" href="#">Blog</a></li>
+                <li><a class="main-nav-link" href="post1.html">Blog</a></li>
                 <li><a class="main-nav-link" href="#">About</a></li>
                 <li><a class="main-nav-link" href="#">Contact</a></li>
             </ul>
@@ -36,22 +37,24 @@
 
     <section class="intro">
         <header class="title">
-            <h1>The Food Ninja Blog</h1>
-            <p>A blog about food, experiences and recipes.</p>
+            <h2 class="title-head">The Food Ninja Blog</h2>
+            <p class="caption">A blog about food, experiences and recipes.</p>
         </header>
         <div class="search-container">
             <form action="">
-                <input type="text" placeholder="Search.." name="search">
-                <button type="submit"><i  class="fa fa-search"></i> Search</button>
+                <input class="search-bar" type="text" placeholder="Search.." name="search">
+                <!-- <button type="submit"><i  class="fa fa-search"></i> Search</button> -->
+               
             </form>
         </div>
+        
 
     </section>
 
     <main>
         <article>
-            <div>
-                <!-- <img src="https://images.unsplash.com/photo-1517093157656-b9eccef91cb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" alt=""> -->
+            <div class="flex-container">
+                <img class="flex-item-left" src="https://images.unsplash.com/photo-1517093157656-b9eccef91cb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" alt="">
             </div>
             <ul>
                 <li>
@@ -82,8 +85,8 @@
         <article>
 
 
-            <div>
-                <!-- <img src="https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt=""> -->
+            <div class="flex-container">
+                <img class="flex-item-right" src="https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="">
             </div>
             <ul>
                 <li>
@@ -168,7 +171,7 @@
                     <li><a class="foo-nav-link"  href="#">Privacy Policy</a></li>
                     <li><a class="foo-nav-link" href="#">Contact</a></li>
                 </ul>
-            </div>
+            </div> 
 
             <div class="copy">
                 <p>Copyright &copy;2021 Food Ninja. All Rights Reserved.</p>
