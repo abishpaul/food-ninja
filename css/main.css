@@ -2,6 +2,8 @@
     padding:0;
     margin:0;
     box-sizing:border-box;
+
+    
 }
 
 
@@ -14,6 +16,10 @@ body{
 
 }
 
+
+::selection {
+    background: #FECACA;
+  }
 
 /* ************************** */
 /* * GENERAL COMPONENTS * */
@@ -49,6 +55,7 @@ body{
    list-style:none;
    display:flex;
    gap:1.2rem;
+   font-size: .9rem
    
 }
 
@@ -68,7 +75,7 @@ body{
 
 
 footer{
-    background-color:#D2C6FF;
+    background-color:#FECACA;
     padding:1.2rem;
     max-width: 100rem;
     font-size: 0.80rem;
