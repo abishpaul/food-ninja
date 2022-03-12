@@ -13,6 +13,8 @@ body{
     font-weight: 400;
     color: #000 ;
     background-color:#FEF8EA;
+    
+ 
 
 }
 
@@ -20,6 +22,14 @@ body{
 ::selection {
     background: #FECACA;
   }
+
+
+
+
+
+
+
+
 
 /* ************************** */
 /* * GENERAL COMPONENTS * */

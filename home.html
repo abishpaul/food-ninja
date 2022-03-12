@@ -8,10 +8,10 @@
     <title>Food Ninja</title>
 
 
-<!-- ---------LINK CSS--------- -->
+    <!-- ---------LINK CSS--------- -->
 
-<link rel="stylesheet" href="css\main.css">
-<link rel="stylesheet" href="css\home.css">
+    <link rel="stylesheet" href="css\main.css">
+    <link rel="stylesheet" href="css\home.css">
 
 
 
@@ -19,14 +19,18 @@
 
 <body>
 
-    <header class="header"> 
+    <header class="header">
         <div class="logo">
             Food Ninja
 
         </div>
 
+
+
+        
+
         <nav class="main-nav">
-            <ul class="main-nav-list" >
+            <ul class="main-nav-list">
                 <li><a class="main-nav-link" href="post1.html">Blog</a></li>
                 <li><a class="main-nav-link" href="#">About</a></li>
                 <li><a class="main-nav-link" href="#">Contact</a></li>
@@ -44,39 +48,44 @@
             <form action="">
                 <input class="search-bar" type="text" placeholder="Search.." name="search">
                 <!-- <button type="submit"><i  class="fa fa-search"></i> Search</button> -->
-               
+
             </form>
         </div>
-        
+
 
     </section>
 
     <main>
         <article>
             <div class="flex-container">
-                <img class="flex-item-left" src="https://images.unsplash.com/photo-1517093157656-b9eccef91cb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" alt="">
+                <img class="flex-item-left"
+                    src="https://images.unsplash.com/photo-1517093157656-b9eccef91cb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+                    alt="">
             </div>
+
             <ul>
                 <li>
-                    <p>Travel</p>
+                    <span class="label success">Icecream</span>
+
                 </li>
                 <li>
-                    <h2>What Traveling Greece For 2 Weeks Taught Me About Life</h2>
+                    <div class="author"><img class="author-img" src="https://randomuser.me/api/portraits/women/44.jpg"
+                            alt="">
+                        <h5 class="author-name">Ann Mary <span class="author-title">&#8226 Creator</span></h5>
+                    </div>
+                    <h2 class="caption-heading">Berry Cheesecake Ice Pops with Buttery Graham Crumbles</h2>
                 </li>
                 <li>
-                    <p>June 21,2021 &#8226 11 min read</p>
+                    <p class="date">June 21,2021 &#8226 11 min read</p>
+
                 </li>
             </ul>
 
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vitae, repellat odio facilis et
-                    maxime, aperiam officiis, libero reprehenderit dicta quia. Facere, nulla perspiciatis dolorum
-                    debitis aperiam aut quis molestiae.</p>
+                <p class="description">Ever since my first lick of ice cream, it has been an endless love story. Trading my toy out for ice cream at Chick-fil-a was the easiest decision I ever had to make. I spent every spring, summer, fall, and winter craving ice cream... <span> <a class="readmore" href="post1.html">read more</a> </span></p>
             </div>
 
-            <div><img src="https://randomuser.me/api/portraits/women/44.jpg" alt="">
-                <h5>Abishua</h5>
-            </div>
+
         </article>
 
 
@@ -84,42 +93,47 @@
 
         <article>
 
-
             <div class="flex-container">
-                <img class="flex-item-right" src="https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="">
+                <img class="flex-item-right"
+                    src="https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                    alt="">
             </div>
             <ul>
                 <li>
-                    <p>Travel</p>
+                    <span class="label success">Domino's</span>
                 </li>
                 <li>
-                    <h2>What Traveling Greece For 2 Weeks Taught Me About Life</h2>
+                    <div class="author"><img class="author-img" src="https://randomuser.me/api/portraits/women/44.jpg"
+                            alt="">
+                        <h5 class="author-name">Ann Mary <span class="author-title">&#8226 Creator</span></h5>
+                    </div>
+
+                    <h2 class="caption-heading">The Best Vegan Cheese and Meat For Pizza!</h2>
                 </li>
                 <li>
-                    <p>June 21,2021 &#8226 11 min read</p>
+                    <p class="date">June 21,2021 &#8226 11 min read</p>
                 </li>
             </ul>
 
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vitae, repellat odio facilis et
-                    maxime, aperiam officiis, libero reprehenderit dicta quia. Facere, nulla perspiciatis dolorum
-                    debitis aperiam aut quis molestiae.</p>
+                <p class="description">This was my favorite pizza by far. It still has the vegan cheese but I was twice
+                    as impressed with this Tofurky sausage. It really gave the pizza a boost in flavor and
+                    just like a regular pizza night I could not help but take multiple slices..<span> <a
+                            class="readmore" href="post1.html">read more</a> </span></p>
             </div>
 
-            <div><img src="https://randomuser.me/api/portraits/women/44.jpg" alt="">
-                <h5>Abishua</h5>
-            </div>
 
 
             <section>
                 <div class="pagination">
 
-                    <a href="#">1</a>
-                    <a href="#">2</a>
-                    <a href="#">3</a>
-                    <a href="#">4</a>
-                    <a href="#">5</a>
-                    <a href="#">6</a>
+                    <a class="pagination-number-active" href="#">1</a>
+                    <a class="pagination-number" href="#">2</a>
+                    <a class="pagination-number" href="#">3</a>
+                    <!-- <a class="pagination-number" href="#">4</a>
+                    <a class="pagination-number" href="#">5</a>
+                    <a class="pagination-number" href="#">6</a> -->
+                    
 
                 </div>
             </section>
@@ -168,16 +182,17 @@
             <div class="foo-nav">
                 <ul class="foo-nav-list">
                     <li><a class="foo-nav-link" href="#">About</a></li>
-                    <li><a class="foo-nav-link"  href="#">Privacy Policy</a></li>
+                    <li><a class="foo-nav-link" href="#">Privacy Policy</a></li>
                     <li><a class="foo-nav-link" href="#">Contact</a></li>
                 </ul>
-            </div> 
+            </div>
 
             <div class="copy">
                 <p>Copyright &copy;2021 Food Ninja. All Rights Reserved.</p>
             </div>
 
-            <p class="coder-name">Code with ❤️ By  <a class="coder-name-link" href="https://twitter.com/abishuablessmic"> Abishua</a></p>
+            <p class="coder-name">Code with ❤️ By <a class="coder-name-link" href="https://twitter.com/abishuablessmic">
+                    Abishua</a></p>
         </footer>
 
 
@@ -185,6 +200,13 @@
 
     </main>
 
+
+
+
+
+
+
+   
 
 </body>
 
